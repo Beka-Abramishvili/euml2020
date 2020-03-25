@@ -3,7 +3,6 @@ def f1():
   print("Hello from a function")
   
 f1()
-'''
 
 class Person:
     def __init__(self):
@@ -28,3 +27,36 @@ p1.myfunc("Beso")
 p1.myfunc1()
 p1.myfunc2()
 print(p1.n)
+'''
+
+
+import json
+
+x =  '{ "name":"John", "age":30, "city":"New York"}'
+# parse x:
+y = json.loads(x)
+
+# the result is a Python dictionary:
+print(y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
